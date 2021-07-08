@@ -13,7 +13,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Describe your project. Why did you create it?',
+        message: 'Description of project:',
     },
     {
         type: 'input',
@@ -30,7 +30,7 @@ const questions = [
         name: 'license',
         message: 'Which license should be used?',
         choices: [
-            'MIT', 'Apache', 'GLP', 'BSD',
+            'Eeny', 'Meeny', 'Miny', 'Moe',
         ],
     },
     {
@@ -66,9 +66,9 @@ function init() {
     inquirer
     .prompt(questions)
     .then((answers) =>{
-        console.log(answers);
+        // console.log(answers);
         let inputString = generateMarkdown(answers);
-        console.log(inputString);
+        // console.log(inputString);
 
         writeToFile("README.md", inputString)
     })
