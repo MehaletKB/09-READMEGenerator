@@ -1,4 +1,4 @@
-This project is covered under !['License:Meeny']('https://img.shields.io/badge/License-Meeny-yellow.svg')
+This project is covered under !['License:Miny']('https://img.shields.io/badge/License-Miny-orange.svg')
 
   # Title: 
   f
@@ -15,16 +15,16 @@ This project is covered under !['License:Meeny']('https://img.shields.io/badge/L
   h
 
   ## Installation:
-  r
+  e
 
   ## Usage: 
-  j
-
-  ## Contribution Guidelines: 
   h
 
+  ## Contribution Guidelines: 
+  g
+
   ## Testing: 
-  d
+  s
 
   ## For questions please contact: 
-  i
+  j

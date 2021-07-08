@@ -1,8 +1,7 @@
 function renderLicenseSection(license) {
 
   let badge = license;
-  console.log("this is renderLicenseSection, license")
-  console.log(badge)
+
   switch(badge){
     case 'Eeny':
       return "!['License:Eeny']('https://img.shields.io/badge/License-Eeny-brightgreen.svg')";
@@ -31,13 +30,7 @@ function generateMarkdown(data){
 
   let licenseChoice = data.license.toString();
 
-  console.log("this is data.license.toString()")
-  console.log(licenseChoice)
-
   let licenseInfo = renderLicenseSection(licenseChoice);
-
-  console.log("this is renderLicenseSection(licenseChoice)")
-  console.log(licenseInfo)
 
   return `This project is covered under ${licenseInfo}
 
