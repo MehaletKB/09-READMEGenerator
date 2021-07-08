@@ -1,21 +1,22 @@
 function renderLicenseSection(license) {
 
-  let badge;
+  let badge = license;
+  console.log(license)
   switch(badge){
-    case license == 'Eeny':
-      !['License:Eeny']('https://img.shields.io/badge/License-Eeny-green.svg');
+    case 'Eeny':
+      "!['License:Eeny']('https://img.shields.io/badge/License-Eeny-green.svg')";
       break;
 
-    case license == 'Meeny':
-      !['License:Apache']('https://img.shields.io/badge/License-Meeny-yellow.svg');
+    case 'Meeny':
+      "!['License:Apache']('https://img.shields.io/badge/License-Meeny-yellow.svg')";
       break;
 
-    case license == 'Miny':
-      !['License:Miny']('https://img.shields.io/badge/License-Miny-orange.svg');
+    case 'Miny':
+      "!['License:Miny']('https://img.shields.io/badge/License-Miny-orange.svg')";
       break;
 
-    case license == 'Moe':
-      !['License:Moe']('https://img.shields.io/badge/License-Moe-red.svg');
+    case 'Moe':
+      "!['License:Moe']('https://img.shields.io/badge/License-Moe-red.svg')";
       break;
 
     default:
@@ -25,7 +26,14 @@ function renderLicenseSection(license) {
 
 function generateMarkdown(data){
 
-  let licenseInfo = renderLicenseSection(data.license);
+  // console.log(data)
+
+  let licenseChoice = data.license.toString();
+  console.log(licenseChoice)
+
+  let licenseInfo = renderLicenseSection(licenseChoice);
+
+  console.log(licenseInfo)
 
   return `This project is covered under ${licenseInfo}
 

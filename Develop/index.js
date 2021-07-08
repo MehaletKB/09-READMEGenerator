@@ -1,9 +1,7 @@
-// TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -28,7 +26,7 @@ const questions = [
     {
         type: 'checkbox',
         name: 'license',
-        message: 'Which license should be used?',
+        message: 'Please select a license',
         choices: [
             'Eeny', 'Meeny', 'Miny', 'Moe',
         ],
@@ -61,7 +59,6 @@ function writeToFile(fileName, data) {
         err?console.error(err):console.log('Thank you!')});
 }
 
-// TODO: Create a function to initialize app
 function init() {
     inquirer
     .prompt(questions)
