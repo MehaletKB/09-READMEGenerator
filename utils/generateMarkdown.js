@@ -55,7 +55,10 @@ function generateMarkdown(data){
   ${data.tests}
 
   ## For questions please contact: 
-  ${data.questions}`;
+  ${data.questions}
+
+  ### Walk-through:
+  ![clip]('./clip/09-GenerateREADME-vid.mp4')`
 }
 
 module.exports = generateMarkdown;

@@ -1,6 +1,6 @@
-This project is covered under !['License:Miny'](https://img.shields.io/badge/License-Miny-orange)
+This project is covered under !['License:Meeny'](https://img.shields.io/badge/License-Meeny-yellow)
 
-  # Title: title
+  # Title: README Generator
 
   ## Table of Contents:
   * [Description](#description)
@@ -11,19 +11,22 @@ This project is covered under !['License:Miny'](https://img.shields.io/badge/Lic
   * [Contact](#questions)
 
   ## Description: 
-  sdknv
+  Generate a README file from the terminal with node.js and inquirer dependency
 
   ## Installation:
-  dsvnknd
+  must insall node.js
 
   ## Usage: 
-  sdnksndf
+  to create README files
 
   ## Contribution Guidelines: 
-  ksdnfskdn
+  make it better or go home
 
   ## Testing: 
-  s,dn
+  type node index.js a million times
 
   ## For questions please contact: 
-  sdkns
+  tatybcoding@gmail.com
+
+  ### Walk-through:
+  ![clip]('./clip/09-GenerateREADME-vid.mp4')
