@@ -29,4 +29,6 @@ This project is covered under !['License:Meeny'](https://img.shields.io/badge/Li
   tatybcoding@gmail.com
 
   ### Walk-through:
-  ![clip]('./clip/09-GenerateREADME-vid.mp4')
+
+https://user-images.githubusercontent.com/81489920/125174460-50f6fe00-e18b-11eb-8aa0-5851a8db6a75.mp4
+
